@@ -31,8 +31,7 @@ Drag `SCNumberKeyBoardDemo/Classes` folder into your project
 }];
 ```
 ## Localization
-Localization include Chinese and English, you can add other by yourself. Change localization you should edit Info.plist, 
-the item of [Localization native development region], this project default is base, you can change to en for display English.
+Localization includes Chinese and English; feel free to add other languages yourself. To change localization you'll need to edit `Info.plist` → `[Localization native development region]`. This project's default is `base`, but you can change it to `en` to have it display in English.
 
 -----------------
 
