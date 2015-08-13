@@ -82,7 +82,7 @@ typedef void(^BLOCK)(UITextField *textField, NSString *number);
 
 - (IBAction)enterButtonPressed
 {
-    // User determine and close, callback to notifaction coder.
+    // User determine and close, callback to notification coder.
     if (_block)
         _block(_textField, [self outputNumbers]);
     [self dismiss];
