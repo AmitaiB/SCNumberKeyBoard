@@ -12,21 +12,21 @@
 @property (weak, nonatomic) IBOutlet UIButton *enterButton;
 
 /**
- *  Class Method : show number keyboard for all text field on view controller.
+ *  Class Method : show number keyboard for any text field on the view controller.
  *  类方法：为某一个视图控制器的所有text field控件添加数字键盘。
  */
 + (void)showOnViewController:(UIViewController *)viewController
                        block:(void(^)(UITextField *textField, NSString *number))block;
 
 /**
- *  Class Method : show number keyboard for a text field.
+ *  Class Method : show number keyboard for a given text field.
  *  类方法：为某一个text field控件添加数字键盘。
  */
 + (instancetype)showWithTextField:(UITextField *)textField
                             block:(void(^)(UITextField *textField, NSString *number))block;
 
 /**
- *  Intance Method : show number keyboard for a text field.
+ *  Intance Method : show number keyboard for a specific text field.
  *  实例方法：为某一个text field控件添加数字键盘。
  */
 - (instancetype)initWithTextField:(UITextField *)textField
